@@ -1,4 +1,4 @@
-import { Button } from '@strapi/design-system';
+import { Button } from '@strapi/design-system/Button';
 import { CheckPermissions } from '@strapi/helper-plugin';
 import Upload from '@strapi/icons/Upload';
 import React, { useState } from 'react';

@@ -448,10 +448,9 @@ await service.exportData(
     /**
      * Export format.
      * - csv
-     * - json
-     * - json-v2: json in the new json file format (see section `Importing Data`)
+     * - json: javascript object notation
      */
-    exportFormat: "csv" | "json" | "json-v2";
+    exportFormat: "csv" | "json";
     /** Search query used to select the entries to export. The package `qs` is used to parse the query. */
     search?: string;
     /** Whether to apply the search query. */

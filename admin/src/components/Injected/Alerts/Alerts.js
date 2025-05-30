@@ -1,6 +1,7 @@
 import './style.css';
 
-import { Alert, Portal } from '@strapi/design-system';
+import { Alert } from '@strapi/design-system/Alert';
+import { Portal } from '@strapi/design-system/Portal';
 import React from 'react';
 
 import { useAlerts } from '../../../hooks/useAlerts';

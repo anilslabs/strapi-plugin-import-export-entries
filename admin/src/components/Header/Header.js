@@ -1,4 +1,5 @@
-import { BaseHeaderLayout, Box } from '@strapi/design-system';
+import { Box } from '@strapi/design-system/Box';
+import { BaseHeaderLayout } from '@strapi/design-system/Layout';
 import React from 'react';
 
 import { useI18n } from '../../hooks/useI18n';
